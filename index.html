@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora</title>
+    <link rel="stylesheet" href="css/estilo.css">
+</head>
+
+<body>
+    <form name="calculator">
+        <input id="resp" type="textfield" name="ans" value="" maxlength="12">
+        <br>
+        <input type="button" value="7" onclick=" Presionaboton(7)">
+        <input type="button" value="8" onclick=" Presionaboton(8)">
+        <input type="button" value="9" onclick=" Presionaboton(9)">
+        <input id="operador" type="button" value="+" onclick=" Presionaboton('+')">
+        <br>
+        <input type="button" value="4" onclick=" Presionaboton(4)"">
+        <input type="button" value="5" onclick=" Presionaboton(5)"">
+        <input type="button" value="6" onclick=" Presionaboton(6)"">
+        <input id="operador" type="button" value="-" onclick=" Presionaboton('-')">
+        <br>
+        <input type="button" value="1" onClick="document.calculator.ans.value+='1'">
+        <input type="button" value="2" onClick="document.calculator.ans.value+='2'">
+        <input type="button" value="3" onClick="document.calculator.ans.value+='3'">
+        <input id="operador" type="button" value="*" onClick="document.calculator.ans.value+='*'">
+        <br>
+        <input type="reset" value="CE">
+        <input type="button" value="0" onclick=" Presionaboton(0)">
+        <input type="button" value="=" onclick=" Respuesta()">
+        <input id="operador" type="button" value="/" onclick=" Presionaboton('/')">
+        <input id="imprimir" type="button" value="IMPRIMIR CODIGO" onclick=" ImprimirCodigo('1620080129')">
+    </form>
+    <script src="app.js" charset="utf-8"></script>
+</body>
+
+</html>

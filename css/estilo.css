@@ -1,0 +1,43 @@
+form {
+    width: 100%;
+    max-width: 400px;
+    margin: auto;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    text-align: center;
+}
+
+input[type=textfield] {
+    width: 75%;
+    margin-bottom: 2px;
+    padding: 30px 30px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    text-align: left;
+    color: black;
+    background: #818181;
+}
+
+input[type=button], input[type=submit], input[type=reset] {
+    min-width: 21%;
+    margin: 2px 2px;
+    padding: 20px 20px;
+    font-size: 20px;
+    border: none;
+    color: white;
+    background-color: #0091fe;
+}
+
+#operador {
+    background: #00c0ff;
+}
+
+#imprimir {
+    width: 90%;
+    background: #f7b45d;
+}
+
+input[type=button]:hover, input[type=submit]:hover, input[type=reset]:hover {
+    background-color: #333;
+}
